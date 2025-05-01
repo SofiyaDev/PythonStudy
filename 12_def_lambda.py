@@ -23,3 +23,39 @@ def minus_one(list):
 
 
 print(minus_one(ug))
+
+
+
+def say_hello(name):
+    print("Привіт,", name)
+
+say_hello("Олексій")  # Виведе: Привіт, Олексій
+say_hello("Марія")
+
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)
+
+
+
+def minimal(l):
+    min1 = l[0]
+    for i in l:
+       if i < min1:
+           min1 = i
+
+    return min1
+
+
+nums2 = [-32, 33, 2, 7, -32]
+res2 = (nums2)
+
+nums1 = [4, 5, 23, 54, 55, 2]
+res1 = (nums1)
+
+if len(res1) > len(res2):
+    print("nona")
+else :
+    print("sopd")
