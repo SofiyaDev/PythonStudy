@@ -1,5 +1,5 @@
 name = "alia"
 
 
-def hi:
+def hi():
     print("hello")
