@@ -50,7 +50,7 @@ def minimal(l):
 
 
 nums2 = [-32, 33, 2, 7, -32]
-res2 = (nums2)
+res2 =  (nums2)
 
 nums1 = [4, 5, 23, 54, 55, 2]
 res1 = (nums1)
