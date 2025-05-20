@@ -1,5 +1,4 @@
 import os
-
 import redis
 
 #redis_host = '192.168.1.110'  # IP of PC A
@@ -14,8 +13,8 @@ try:
                     )
 
     # Set a key
-    r.set('greeting', 'Hello from PC B!')
-    r.set('aaaa1', 'UGGGGGG!')
+    r.set('tolpa', 'Hello from Sashomia!')
+    r.set(':(', ':)')
 
     # Get the key
     value = r.get('greeting')
